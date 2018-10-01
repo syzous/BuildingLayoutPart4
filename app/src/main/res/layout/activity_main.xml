@@ -20,7 +20,7 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="2"
+        android:layout_weight="3"
         android:layout_marginLeft="30dp">
 
         <TextView
@@ -33,8 +33,8 @@
 
         <ImageView
             android:id="@+id/im_location"
-            android:layout_width="18dp"
-            android:layout_height="18dp"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
             android:layout_below="@+id/tv_title"
             android:layout_marginTop="5dp"
             android:src="@drawable/ic_location" />
@@ -49,12 +49,12 @@
             android:layout_toEndOf="@+id/im_location"
             android:fontFamily="@font/merriweather_bold"
             android:text="543 Pasteur, Q1"
-            android:textSize="12sp" />
+            android:textSize="18sp" />
 
         <ImageView
             android:id="@+id/im_description"
-            android:layout_width="18dp"
-            android:layout_height="18dp"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
             android:layout_marginTop="5dp"
             android:layout_below="@+id/im_location"
             android:src="@drawable/ic_description_24px" />
@@ -68,8 +68,8 @@
             android:layout_marginTop="5dp"
             android:layout_toEndOf="@+id/im_description"
             android:fontFamily="@font/merriweather_bold"
-            android:text="The dog world shop is a place for buy husky and alaska dog with variaty kind of bleed dsads adasda sdasfd safdsfdsf dsargrjkfhreijkgsjknfjkndsknkvnsdanasdkjnjdsafkadshfkadsnjkcndksncdksacnlsdcnasklnd"
-            android:textSize="12sp" />
+            android:text="The dog world shop is a place for buy husky and alaska dog with variety kind of bleed dsads adasda sdasfd safdsfdsf dsargrjkfhreijkgsjknfjkndsknkvnsdanasdkjnjdsafkadshfkadsnjkcndksncdksacnlsdcnasklnd"
+            android:textSize="18sp" />
 
 
         <TextView
