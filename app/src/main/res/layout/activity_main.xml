@@ -11,78 +11,82 @@
         android:id="@+id/im_husky"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="1"
+        android:layout_weight="2"
         android:scaleType="centerCrop"
         android:src="@drawable/husky"
         >
     </ImageView>
 
-    <RelativeLayout
-        android:layout_width="match_parent"
+    <ScrollView
+        android:layout_width="wrap_content"
         android:layout_height="0dp"
-        android:layout_weight="3"
-        android:layout_marginLeft="30dp">
+        android:layout_weight="3">
 
-        <TextView
-            android:id="@+id/tv_title"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:fontFamily="@font/galindo"
-            android:text="THE DOG WORLD SHOP"
-            android:textSize="24sp" />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginLeft="30dp"
+           >
 
-        <ImageView
-            android:id="@+id/im_location"
-            android:layout_width="24dp"
-            android:layout_height="24dp"
-            android:layout_below="@+id/tv_title"
-            android:layout_marginTop="5dp"
-            android:src="@drawable/ic_location" />
+            <TextView
+                android:id="@+id/tv_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/galindo"
+                android:text="THE DOG WORLD SHOP"
+                android:textSize="24sp" />
 
-        <TextView
-            android:id="@+id/tv_address"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/tv_title"
-            android:layout_marginLeft="5dp"
-            android:layout_marginTop="5dp"
-            android:layout_toEndOf="@+id/im_location"
-            android:fontFamily="@font/merriweather_bold"
-            android:text="543 Pasteur, Q1"
-            android:textSize="18sp" />
+            <ImageView
+                android:id="@+id/im_location"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_below="@+id/tv_title"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/ic_location" />
 
-        <ImageView
-            android:id="@+id/im_description"
-            android:layout_width="24dp"
-            android:layout_height="24dp"
-            android:layout_marginTop="5dp"
-            android:layout_below="@+id/im_location"
-            android:src="@drawable/ic_description_24px" />
+            <TextView
+                android:id="@+id/tv_address"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_title"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_toEndOf="@+id/im_location"
+                android:fontFamily="@font/merriweather_bold"
+                android:text="543 Pasteur, Q1"
+                android:textSize="18sp" />
 
-        <TextView
-            android:id="@+id/tv_description"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/tv_address"
-            android:layout_marginLeft="5dp"
-            android:layout_marginTop="5dp"
-            android:layout_toEndOf="@+id/im_description"
-            android:fontFamily="@font/merriweather_bold"
-            android:text="The dog world shop is a place for buy husky and alaska dog with variety kind of bleed dsads adasda sdasfd safdsfdsf dsargrjkfhreijkgsjknfjkndsknkvnsdanasdkjnjdsafkadshfkadsnjkcndksncdksacnlsdcnasklnd"
-            android:textSize="18sp" />
+            <ImageView
+                android:id="@+id/im_description"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_below="@+id/im_location"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/ic_description_24px" />
 
+            <TextView
+                android:id="@+id/tv_description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_address"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_toEndOf="@+id/im_description"
+                android:fontFamily="@font/merriweather_bold"
+                android:text="The dog world shop is a place for buy husky and alaska dog with variety kind of bleed dsads adasda sdasfd safdsfdsfasdf adsfd fdsaf sdafdsfdsa fsdfsa dfsdaf asfadsfdsfad sfsdf dsafds afsd fdsf sdafsdafsdaaaasfsdaafsdafasdfsdfsdfasfdsfdsafsadfsdafsdfdsafiliulilkjljkhlkhljklkjlkjlkjljkljljklhlkjlkjlhka fsdf dsfsdafdbsfvadsfdsfdsfvdsfsdavfsdafasdsdfdsaf sadfasdfsd afsadf asdfsd fsdaf sdafds fsdaf sdaf sdfsdaf dsf dsargrjkfhreijkgsjknfjkndsknkvnsdanasdkjnjdsafkadshfkadsnjkcndksncdksacnlsdcnasklnd"
+                android:textSize="18sp" />
 
-        <TextView
-            android:id="@+id/tv_opening_hour"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/tv_description"
-            android:layout_marginTop="5dp"
-            android:fontFamily="@font/merriweather_bold"
-            android:text="Opening Hour: 6:00 - 18:00"
-            android:textSize="12sp" />
-    </RelativeLayout>
-
+            <TextView
+                android:id="@+id/tv_opening_hour"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_description"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/merriweather_bold"
+                android:text="Opening Hour: 6:00 - 18:00"
+                android:textSize="18sp" />
+        </RelativeLayout>
+    </ScrollView>
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
