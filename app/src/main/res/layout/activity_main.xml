@@ -24,7 +24,7 @@
 
         <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="0dp"
+            android:layout_height="match_parent"
             android:layout_marginLeft="30dp"
            >
 
@@ -41,7 +41,6 @@
                 android:layout_width="24dp"
                 android:layout_height="24dp"
                 android:layout_below="@+id/tv_title"
-                android:layout_marginTop="5dp"
                 android:src="@drawable/ic_location" />
 
             <TextView
@@ -50,10 +49,10 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/tv_title"
                 android:layout_marginLeft="5dp"
-                android:layout_marginTop="5dp"
+                android:layout_marginStart="5dp"
                 android:layout_toEndOf="@+id/im_location"
                 android:fontFamily="@font/merriweather_bold"
-                android:text="543 Pasteur, Q1"
+                android:text="543 Pasteur, Q1, HCM City"
                 android:textSize="18sp" />
 
             <ImageView
@@ -61,7 +60,6 @@
                 android:layout_width="24dp"
                 android:layout_height="24dp"
                 android:layout_below="@+id/im_location"
-                android:layout_marginTop="5dp"
                 android:src="@drawable/ic_description_24px" />
 
             <TextView
@@ -70,7 +68,6 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/tv_address"
                 android:layout_marginLeft="5dp"
-                android:layout_marginTop="5dp"
                 android:layout_toEndOf="@+id/im_description"
                 android:fontFamily="@font/merriweather_bold"
                 android:text="The dog world shop is a place for buy husky and alaska dog with variety kind of bleed dsads adasda sdasfd safdsfdsfasdf adsfd fdsaf sdafdsfdsa fsdfsa dfsdaf asfadsfdsfad sfsdf dsafds afsd fdsf sdafsdafsdaaaasfsdaafsdafasdfsdfsdfasfdsfdsafsadfsdafsdfdsafiliulilkjljkhlkhljklkjlkjlkjljkljljklhlkjlkjlhka fsdf dsfsdafdbsfvadsfdsfdsfvdsfsdavfsdafasdsdfdsaf sadfasdfsd afsadf asdfsd fsdaf sdafds fsdaf sdaf sdfsdaf dsf dsargrjkfhreijkgsjknfjkndsknkvnsdanasdkjnjdsafkadshfkadsnjkcndksncdksacnlsdcnasklnd"
